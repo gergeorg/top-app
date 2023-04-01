@@ -1,6 +1,7 @@
 :root {
   --black: #3B434E;
   --white: #fff;
+  --gray: #A4A4A4;
   --gray-light: #EBEBEB;
   --gray-dark: #787D85;
   --primary: #7653FC;
@@ -32,3 +33,11 @@ a {
   text-decoration: none;
 }
 
+.visualyHidden {
+  position: absolute;
+
+  overflow: hidden;
+
+  width: 0;
+  height: 0;
+}
