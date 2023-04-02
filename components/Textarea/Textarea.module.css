@@ -9,9 +9,7 @@
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
 	border-radius: 5px;
 	border: none;
-	/* resize: none;
-	width: 100%;
-	min-height: 76px; */
+	resize: none;
 }
 
 .textarea::placeholder {

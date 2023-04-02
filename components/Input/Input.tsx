@@ -4,5 +4,5 @@ import cn from 'classnames'
 import styles from './Input.module.css'
 
 export const Input = ({ className, ...props }: InputProps): JSX.Element => {
-	return <input placeholder='test' className={cn(className, styles.input)} {...props} />
+	return <input className={cn(className, styles.input)} {...props} />
 }
