@@ -26,15 +26,26 @@
 	gap: 20px;
 }
 
-.success {
+.success, .error {
 	position: relative;
 	padding: 20px;
 	margin-top: 20px;
-	background-color: var(--green-light);
 	border-radius: 5px;
 }
 
-.successTitle {
+.success {
+	background-color: var(--green-light);
+}
+
+.error {
+	background-color: var(--red-light);
+}
+
+.error .close path{
+	stroke: var(--red);
+}
+
+.successTitle, .errorTitle {
 	font-weight: 700;
 }
 

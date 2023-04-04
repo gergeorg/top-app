@@ -1,7 +1,7 @@
-import CoursesIcon from '../layout/Menu/icons/cources.svg'
-import BooksIcon from '../layout/Menu/icons/books.svg'
-import ServicesIcon from '../layout/Menu/icons/services.svg'
-import ProductIcon from '../layout/Menu/icons/products.svg'
+import CoursesIcon from './icons/cources.svg'
+import BooksIcon from './icons/books.svg'
+import ServicesIcon from './icons/services.svg'
+import ProductIcon from './icons/products.svg'
 import { TopLevelCategory } from '../interfaces/page.interface'
 import { FirstLevelMenuItem } from '../interfaces/menu.interface'
 

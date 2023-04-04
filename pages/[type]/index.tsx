@@ -4,6 +4,7 @@ import { MenuItem } from '../../interfaces/menu.interface'
 import { GetStaticPaths, GetStaticProps, GetStaticPropsContext } from 'next'
 import { firstLevelMenu } from '../../helpers/helpers'
 import { ParsedUrlQuery } from 'node:querystring'
+import { API } from '../../helpers/api'
 
 function Type({ firstCategory }: TypeProps): JSX.Element {
 	return <>Type: {firstCategory}</>
@@ -32,7 +33,7 @@ export const getStaticProps: GetStaticProps<TypeProps> = async ({ params }: GetS
 		}
 	}
 
-	const { data: menu } = await axios.post<MenuItem[]>(process.env.NEXT_PUBLIC_DOMAIN + '/api/top-page/find', {
+	const { data: menu } = await axios.post<MenuItem[]>(API.topPage.find, {
 		firstCategory: firstCategoryItem.id,
 	})
 	return {
