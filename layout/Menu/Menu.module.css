@@ -27,24 +27,26 @@
 .secondBlock {
 	margin-top: 15px;
 	margin-left: 12px;
-	padding-left: 32px;
+	padding: 0 0 0 32px;
 
 	border-left: 1px solid #DFDFDF;
 }
 
 .secondLevel {
 	display: block;
-	margin-bottom: 10px;
+	margin-bottom: 13px;
 	cursor: pointer;
 	text-transform: uppercase;
 	color: var(--gray-dark);
 	font-weight: 300;
 	font-size: 12px;
-	line-height: 16px;
+	border: none;
+	background-color: transparent;
 }
 
 .secondLevelBlock {
 	overflow: hidden;
+	padding: 0;
 }
 
 
@@ -54,9 +56,9 @@
 	cursor: pointer;
 	font-weight: 500;
 	font-size: 14px;
-	line-height: 19px;
 	color: var(--gray-dark);
 	transition: color .3s ease-in-out;
+	outline-offset: -1px;
 }
 
 .thirdLevel:hover,

@@ -3,6 +3,10 @@
 	transition: fill .3s ease-in-out;
 }
 
+.star {
+	display: inline-block;
+}
+
 .star svg{
 	margin-right: 5px;
 }
