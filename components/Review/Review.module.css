@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 640px) {
 	.review {
-		grid-template-columns: [start] 30px [titlestart] auto [dateend] 1fr [end];;
+		grid-template-columns: [start] 30px [titlestart] auto [dateend] 1fr [end];
 	}
 
 	.title {
@@ -35,6 +35,7 @@
 	.date {
 		grid-column: start / end;
 	}
+
 	.rating {
 		grid-column: start / end;
 	}

@@ -1,13 +1,13 @@
-.filled svg{
+.filled svg {
 	fill: var(--primary);
-	transition: fill .3s ease-in-out;
+	transition: fill 0.3s ease-in-out;
 }
 
 .star {
 	display: inline-block;
 }
 
-.star svg{
+.star svg {
 	margin-right: 5px;
 }
 

@@ -24,25 +24,25 @@
 }
 
 .red {
-	font-weight: 600;
-	background-color: #DE0000;
 	color: var(--white);
+	background-color: #DE0000;
+	font-weight: 600;
 }
 
 .gray {
-	font-weight: 600;
- 	background-color: #51648c;
 	color: var(--white);
+	background-color: #51648C;
+	font-weight: 600;
 }
 
 .green {
-	background-color: var(--green-light);
 	color: var(--green);
+	background-color: var(--green-light);
 	font-weight: 600;
 }
 
 .primary {
-	border: 1px solid var(--primary);
 	color: var(--primary);
+	border: 1px solid var(--primary);
 	background-color: none;
 }

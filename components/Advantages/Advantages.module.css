@@ -7,14 +7,14 @@
 
 .title {
 	align-self: center;
-	font-weight: 700;
 	font-size: 20px;
+	font-weight: 700;
 	line-height: 27px;
 }
 
 .vline {
-	margin: 0 auto;
 	width: 1px;
 	height: 100%;
+	margin: 0 auto;
 	background-color: var(--gray-light);
 }

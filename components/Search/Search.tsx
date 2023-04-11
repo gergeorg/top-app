@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, KeyboardEvent } from 'react'
 import { SearchProps } from './Search.props'
 
 import cn from 'classnames'
